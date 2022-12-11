@@ -40,9 +40,3 @@ valueDisplays.forEach((valueDisplays) => {
     } 
   })
 });
-
-function playSound(audioName) {
-	let audio = new Audio(audioName);
-    audio.play();
-}
-playSound("inthandham.mp3")

@@ -39,4 +39,10 @@ valueDisplays.forEach((valueDisplays) => {
       clearInterval(counter);
     } 
   })
-})
+});
+
+function playSound(audioName) {
+	let audio = new Audio(audioName);
+    audio.play();
+}
+playSound("inthandham.mp3")
